@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.titi.inspiration">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bee"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".about_Activity"></activity>
+        <activity
+            android:name=".what_does_god_see_you_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".god_pronouses_what_he_sees_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".you_came_out_of_god_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".the_real_you_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".who_are_you_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".why_you_were_born_II_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".why_you_were_born_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".book_of_life_ii_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".book_of_life_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".have_you_rob_god_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".self_dev_III_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".self_dev_II_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".self_devolopment_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".praying_the_right_way_III_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".praying_the_right_way_part_IIActivity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".praying_the_right_way_part_i_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".stand_against_devils_strategies_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".the_three_fold_nature_of_man_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".positive_thinking_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".victory_through_jesusActivity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".victory_through_jesus_Activity"
+            android:parentActivityName=".get_started_Activity" />
+        <activity
+            android:name=".get_started_Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

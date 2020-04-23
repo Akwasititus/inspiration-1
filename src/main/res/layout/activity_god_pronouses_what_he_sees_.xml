@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yes1"
+    tools:context=".victory_through_jesusActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350sp"
+        android:layout_height="60sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="21dp"
+        android:background="#283593"
+        android:foregroundGravity="center"
+        app:cardBackgroundColor="#F0445592"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="250dp"
+        app:cardMaxElevation="250dp"
+        app:cardUseCompatPadding="false">
+
+
+        <TextView
+            android:id="@+id/text_vic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="@string/GOD_PRONOUNCES_WHAT_HE_SEES"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="389dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        app:cardBackgroundColor="#F0445592"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="580dp"
+        app:cardMaxElevation="50dp"
+        app:cardUseCompatPadding="false">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_rubbed_god"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
